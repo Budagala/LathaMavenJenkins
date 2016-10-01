@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MavenJenkinsSuite]">
+  <test name="MavenTest(failed)">
+    <classes>
+      <class name="com.pack.MavenJenkinsTestCase">
+        <methods>
+          <include name="firstTestCase"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.pack.MavenJenkinsTestCase -->
+    </classes>
+  </test> <!-- MavenTest(failed) -->
+</suite> <!-- Failed suite [MavenJenkinsSuite] -->
